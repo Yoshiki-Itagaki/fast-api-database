@@ -26,5 +26,5 @@ async def create_user(create_user_request: CreateUserRequest):
         is_active=True
     )
 
-    return create_user_request
+    return create_user_model
 
