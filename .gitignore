@@ -1,2 +1,5 @@
 .idea/
 env/
+.env
+env.py
+env_local.py
