@@ -3,7 +3,7 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 import os
 from dotenv import load_dotenv
-from env_local import DB_USER, DB_PASSWORD, DB_NAME, DB_HOST
+from .env_local import DB_USER, DB_PASSWORD, DB_NAME, DB_HOST
 
 load_dotenv()
 
