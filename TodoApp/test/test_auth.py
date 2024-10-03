@@ -57,4 +57,4 @@ async def test_get_current_user_invalid_token():
         await get_current_user(token=token)
 
     assert excinfo.value.status_code == 401
-    assert excqinfo.value.detail == 'Could Not Validate the User'
+    assert excinfo.value.detail == 'Could Not Validate the User'
